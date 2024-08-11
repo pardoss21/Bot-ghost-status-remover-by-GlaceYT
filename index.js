@@ -32,11 +32,11 @@ app.get('/', (req, res) => {
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Powered By Pardoss Dev`);
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Pardoss Dev","Pardoss's Wife"];
 
 
 let currentIndex = 0;
